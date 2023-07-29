@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30//编译的SDK版本
+    defaultConfig {
+        applicationId "com.internet.yu_zi_fei_android"
+        minSdkVersion 19//最低适配的SDK版本
+        targetSdkVersion 27 //当前使用SDK版本
+        versionCode 2
+        versionName "v1.0.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation('com.android.support:appcompat-v7:28.0.0') {exclude module: 'support-v4'}
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'org.jetbrains:annotations-java5:15.0'
+    testImplementation 'junit:junit:4.12'
+    //noinspection GradleCompatible
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:27.1.1'
+    //Rxjava
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.6'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    //状态栏
+    implementation 'com.githang:status-bar-compat:0.7'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.android.support:multidex:1.0.0'
+    //轮播图
+    implementation 'com.youth.banner:banner:1.4.10'
+    //黄油刀
+    implementation 'com.jakewharton:butterknife:8.8.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.0'
+    //日期选择器
+    //PickerView  仿IOS选择器
+    implementation 'com.contrarywind:Android-PickerView:4.1.4'
+    //下拉框的框架
+    implementation 'com.jaredrummler:material-spinner:1.3.1'
+    implementation project(':PhotoPicker')
+    implementation project(':YCDialogLib')
+    implementation project(':calendar')
+    implementation project(':superlibrary')
+    //设置圆形图像
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //沉浸式状态栏
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    //数据量 SQLite
+    implementation 'com.github.satyan:sugar:1.5'
+
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    api 'com.tbruyelle.rxpermissions2:rxpermissions:0.8.2@aar'
+    implementation 'org.greenrobot:eventbus:3.1.1' //广播 EventBus
+}

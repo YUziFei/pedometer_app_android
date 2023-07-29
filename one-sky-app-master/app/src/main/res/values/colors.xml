@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGray">#6D6D6D</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorBackground">#218EFF</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tab_background">#FFFFFF</color>
+    <color name="tab_textColorSelect">#FFFFFF</color>
+    <color name="tab_textColorBlue">#218EFF</color>
+    <color name="tab_textColor">#FFC92C</color>
+    <color name="yellow_code">#FFC92C</color>
+    <color name="White">#FFFFFF</color>
+    <color name="white">#ffffff</color> <!-- 白色 -->
+
+    <color name="red">#ff0000</color> <!-- 红色 -->
+
+    <color name="textGray">#919298</color> <!-- 薄荷色 -->
+    <color name="gray63656B">#63656B</color> <!-- 薄荷色 -->
+
+    <color name="wheat">#f5deb3</color> <!-- 浅黄色 -->
+
+    <color name="lavender">#FFF6F8FA</color>
+
+    <color name="thistle">#d8bfd8</color> <!-- 蓟色 -->
+
+    <color name="darkgray">#DEDFEB</color> <!-- 暗灰色 -->
+
+    <color name="gray">#797979</color> <!-- 灰色 -->
+    <color name="backgroundColor">#FFF6F7FA</color> <!-- 灰色 -->
+
+    <color name="lime">#FF00CAB6</color> <!-- 酸橙色 -->
+
+    <color name="green">#008000</color> <!-- 绿色 -->
+    <color name="black">#00172F</color>
+    <color name="darkblack">#000000</color>
+    <color name="share">#2A2C2F</color> <!-- 黑色 -->
+
+    <color name="gray001">#584F60</color> <!-- huis -->
+
+    <color name="divider">#ffeeeeee</color>
+    <color name="blackText"> #FF00172F</color> <!-- 黑色 -->
+
+    <color name="blackText1"> #595959</color> <!-- 黑色 -->
+    <color name="zhuhu">#FF00A783</color>
+    <color name="cheliang">#FF308EFD</color>
+    <color name="baoxiu">#FF355FE7</color>
+    <color name="tousu">#FFFF671D</color>
+
+    <!--验证码开门弹窗输入框背景颜色-->
+    <color name="textBlue">#218EFF</color>
+    <color name="textBlue001">#2D6CE7</color>
+    <color name="color_background_bule"> #6685E6</color>
+    <color name="captcha_background">#E0E7FA</color>
+    <color name="textRed">#FF2553</color>
+    <color name="textGreen">#00CAB6</color>
+    <color name="textPink">#FFFF2553</color>
+    <color name="textLitterGreen">#FF4CDACC</color>
+    <color name="buttonGreen">#FF0EB248</color>
+    <color name="button_gray">#FF577EA6</color>
+    <color name="xungeng_gray">#FF63656C</color>
+    <!--home color-->
+    <color name="home_black">#262626</color>
+    <color name="home_bule">#2C6AE4</color>
+    <color name="home_gray">#8C8C8C</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+    <!--WebView H5交互 -->
+    <color name="dialog_bg">#727e847e</color>
+    <color name="text_black_color">#404040</color>
+    <color name="text_gray_color">#6f6f6f</color>
+     <color name="blue_color">#0396ff</color>
+
+</resources>

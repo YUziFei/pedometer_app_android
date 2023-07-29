@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/one-sky-app-master.iml" filepath="$PROJECT_DIR$/one-sky-app-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PhotoPicker/one-sky-app-master.PhotoPicker.iml" filepath="$PROJECT_DIR$/.idea/modules/PhotoPicker/one-sky-app-master.PhotoPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCDialogLib/one-sky-app-master.YCDialogLib.iml" filepath="$PROJECT_DIR$/.idea/modules/YCDialogLib/one-sky-app-master.YCDialogLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/one-sky-app-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/one-sky-app-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calendar/one-sky-app-master.calendar.iml" filepath="$PROJECT_DIR$/.idea/modules/calendar/one-sky-app-master.calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/superlibrary/one-sky-app-master.superlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/superlibrary/one-sky-app-master.superlibrary.iml" />
+    </modules>
+  </component>
+</project>

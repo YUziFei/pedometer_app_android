@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<me.iwf.photopicker.widget.SquareItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_1"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/__picker_delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_20"
+        />
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/image_add_sel"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</me.iwf.photopicker.widget.SquareItemLayout>
+

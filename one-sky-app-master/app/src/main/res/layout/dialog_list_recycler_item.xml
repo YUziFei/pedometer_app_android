@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/dialog_list_recycler_item_txet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="万科红1期"
+        android:gravity="center"
+        android:textColor="@color/blackText"
+        android:textSize="@dimen/sp_16"
+        android:layout_marginLeft="@dimen/dp_10"
+        />
+    </LinearLayout>
+
+</LinearLayout>

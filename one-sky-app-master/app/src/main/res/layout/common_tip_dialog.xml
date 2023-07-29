@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dialog_bg"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_60"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:background="@drawable/common_round_corner_white_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_18">
+
+        <TextView
+            android:id="@+id/tv_kindly_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/kindly_reminder"
+            android:textColor="@color/text_black_color"
+            android:textSize="@dimen/sp_16"/>
+
+
+        <TextView
+            android:id="@+id/tv_tip_content"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_below="@id/tv_kindly_reminder"
+            android:layout_marginTop="@dimen/dp_22"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="9999"
+            android:textColor="@color/text_gray_color"
+            android:textSize="@dimen/sp_16"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_double_button_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_tip_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_22"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="@string/cancel"
+                android:textColor="#666666"
+                android:textSize="@dimen/sp_16"/>
+
+            <TextView
+                android:id="@+id/tv_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:background="@color/white"
+                android:text="@string/confirm"
+                android:textColor="@color/blue_color"
+                android:textSize="@dimen/sp_16"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_single_button_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_tip_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_22"
+            android:background="@color/white"
+            android:text="@string/confirm"
+            android:textColor="@color/blue_color"
+            android:textSize="@dimen/sp_16"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

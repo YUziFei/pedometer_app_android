@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+
+
+    <string-array name="function">
+        <item>信息采集</item>
+        <item>全息档案</item>
+        <item>车辆管理</item>
+        <item>投诉报修</item>
+        <item>用户报修</item>
+        <item>审核</item>
+        <item>访客系统</item>
+        <item>安防管理</item>
+        <item>授权</item>
+        <item>公共管理</item>
+        <item>预警中心</item>
+        <item>物业考勤</item>
+    </string-array>
+
+    <string-array name="options">
+        <item>图片</item>
+        <item>相机</item>
+    </string-array>
+
+    <array name="normalPermissionNames">
+        <item>@string/permission_storage</item>
+        <item>@string/permission_location</item>
+        <item>@string/permission_camera</item>
+    </array>
+    <array name="cameraPermissionNames">
+        <item>@string/permission_storage</item>
+        <item>@string/permission_camera</item>
+    </array>
+
+</resources>
